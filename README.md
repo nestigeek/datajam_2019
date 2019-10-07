@@ -35,14 +35,48 @@ Estos negocios podrían caer en los siguientes tipos:
 Por otra parte, al incluir la información demográfica a nivel AGEB (Area Geográfica y Estadística Básica),es posible establecer una clasificación de los negocios que comparten características similares atribuibles al perfil del consumidor.
 
 
+
+
+---
+## Equipos Participantes
+
+
 --- 
 
-
-### Situación a resolver:
+### Situación a resolver
 
 Teniendo los datos para la zona metropolitana de la Ciudad de México. 
 Suponga que se tiene una base de datos de algunos clientes actuales y su desempeño en los productos Top de 3 categorías.
 Haciendo uso de la base de datos muestra y de los datos abiertos del INEGI. ¿Cuáles negocios en la periferia de los actuales se buscaría añadir a las redes de distribución actual para maximizar la posibilidad de aumento en ventas?
+
+---
+
+### Descripción de los datos del negocio
+
+En este planteamiento hipotético se adjunta un archivo con los datos de las ventas para clientes de la zona metropolitána de CDMX. 
+
+
+| Nombre de la Variable		| Tipo de Variable	| Descripción						|
+| ------------------------- |:-----------------:| ---------------------------------:|
+| Branch_Name				| str				| Nombre del centro de distribución |
+| Customer_Code				| int				| Código del cliente				|
+| Customer_Name				| str				| Nombre del cliente				|
+| Customer_Type				| str				| Tipo de cliente					|
+| Category_Name				| str			    | Categoría de producto				|
+| Lat						| float				| Latitud (Coodenada)				|
+| Long						| float				| Longitud (Coordenada)				|
+| Product_Description		| str				| Descripción del producto			|
+| Qty						| float				| Cantidad vendida al cliente       |
+
+
+----
+### Sugerencias
+
++ Filtrar los datos del INEGI + Denue solo para el área metropolitana
++ Elegir los campos de información del INEGI que permitan clasificar las características poblacionales
++ Es posible que los nombres del cliente que aparecen en la base de datos de ventas y los de DENUE no coincidan
++ Elegir bien los comercios del DENUE que hagan sentido para este tipo de productos.
+
 
 ---
 ### Fuentes de datos
@@ -52,3 +86,19 @@ Haciendo uso de la base de datos muestra y de los datos abiertos del INEGI. ¿Cuá
 >[Mapa](https://www.inegi.org.mx/app/mapa/denue/) interactivo DENUE
 
 >Datos estadísticos [AGEB](https://www.inegi.org.mx/app/tmp/scitel/default?ev=7)
+
+>Datos de muestra sobre ventas [Kellogg](data/sales_sample.csv)
+
+
+
+---
+
+## Soluciones
+
+> Cada equipo debera hacer un branch para subir su propuesta de solución.
+> Deberan crear una carpeta con el nombre de equipo.
+> En esta carpeta colocar el código y todo material de soporte.
+> Crear una liga a su carpeta en la sección de [Equipos](#Equipos-Participantes)
+
+
+
