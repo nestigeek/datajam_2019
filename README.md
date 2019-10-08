@@ -94,10 +94,10 @@ En este planteamiento hipotético se adjunta un archivo con los datos de las ven
 
 ## Soluciones
 
-> Cada equipo deberá hacer un _branch_ para subir su propuesta de solución.
-> Crear una carpeta con el nombre de equipo.
-> En esta carpeta colocar el código y todo material de soporte para justificar el desarrollo propuesto
-> Crear una liga a su carpeta en la sección de [Equipos](#Equipos-Participantes) a la carpeta anterior.
++ Cada equipo deberá hacer un _branch_ para subir su propuesta de solución.
++ Crear una carpeta con el nombre de equipo.
++ En esta carpeta colocar el código y todo material de soporte para justificar el desarrollo propuesto
++ Crear una liga a su carpeta en la sección de [Equipos](#Equipos-Participantes) a la carpeta anterior.
 
 
 
